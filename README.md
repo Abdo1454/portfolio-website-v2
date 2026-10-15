@@ -1,75 +1,117 @@
-# React + TypeScript + Vite
+# Abdulrahim Elsayed — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio built with **React, TypeScript, and Vite** to showcase my projects, technical skills, experience, and journey as a Front-End Developer.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern UI** — Clean and professional design.
+- **Responsive Design** — Optimized for desktop, tablet, and mobile.
+- **Projects Showcase** — Highlighting selected projects with descriptions and technology stacks.
+- **Technical Skills** — Showcasing development tools and technologies.
+- **Experience & Education** — Presenting my professional and academic journey.
+- **Contact Section** — Making it easy to connect with me.
+- **Reusable Components** — Organized and maintainable component architecture.
+- **TypeScript** — Type-safe development.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Vite
+- CSS
+- React Router
+- Lucide React
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```text
+src/
+├── app/
+│   ├── App.tsx
+│   ├── router.tsx
+│   └── providers.tsx
+├── assets/
+├── components/
+│   ├── ui/
+│   └── layout/
+├── features/
+│   ├── home/
+│   ├── projects/
+│   ├── skills/
+│   ├── experience/
+│   └── contact/
+├── hooks/
+├── lib/
+├── styles/
+└── main.tsx
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+public/
+└── images/
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js (LTS recommended)
+- npm
+- Git
 
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Abdo1454/portfolio-website-v2.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd portfolio-website-v2
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
 ```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 📌 Featured Projects
+
+Projects will be added here as the portfolio develops.
+
+## 👨‍💻 About Me
+
+I'm **Abdulrhim Elsayed**, a Computer and Information student at Zagazig University focused on Front-End Development.
+
+I work with React, JavaScript, and TypeScript, and I'm passionate about building accessible, responsive, and user-friendly web applications.
+
+## 📬 Connect With Me
+
+- **GitHub:** [Abdo1454](https://github.com/Abdo1454)
+- **LinkedIn:** [Abdulrahim Elsayed](https://www.linkedin.com/in/abdulrhim-elsayed/)
+
+## 📄 License
+
+This project is intended to serve as my personal portfolio. All rights reserved unless otherwise specified.
