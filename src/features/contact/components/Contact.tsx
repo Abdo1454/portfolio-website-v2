@@ -4,19 +4,19 @@ const contactMethods = [
 {
 title: "Email",
 value: "abdulrimelsayed@gmail.com",
-href: "[abdulrimelsayed@gmail.com](mailto\:abdulrimelsayed@gmail.com)",
+href: "abdulrimelsayed@gmail.com",
 icon: Mail,
 },
 {
 title: "GitHub",
 value: "Abdo1454",
-href: "[https://github.com/Abdo1454](https://github.com/Abdo1454)",
+href: "https://github.com/Abdo1454",
 icon: Code,
 },
 {
 title: "LinkedIn",
 value: "Connect with me",
-href: "[https://www.linkedin.com/in/abdulrhim-elsayed/](https://www.linkedin.com/in/abdulrhim-elsayed/)",
+href: "https://www.linkedin.com/in/abdulrhim-elsayed/",
 icon: Link,
 },
 ];
