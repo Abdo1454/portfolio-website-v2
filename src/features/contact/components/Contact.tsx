@@ -3,7 +3,7 @@ import { Code, Link, Mail, Send } from "lucide-react";
 const contactMethods = [
 {
 title: "Email",
-value: "[abdulrimelsayed@gmail.com](mailto\:abdulrimelsayed@gmail.com)",
+value: "abdulrimelsayed@gmail.com",
 href: "[abdulrimelsayed@gmail.com](mailto\:abdulrimelsayed@gmail.com)",
 icon: Mail,
 },
