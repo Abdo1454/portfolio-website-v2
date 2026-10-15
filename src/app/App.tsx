@@ -1,5 +1,6 @@
 
 import MainLayout from "../components/layout/MainLayout"
+import Experience from "../features/experience/components/Experience"
 import About from "../features/home/components/About"
 import Hero from "../features/home/components/Hero"
 import Projects from "../features/projects/components/Projects"
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Experience />
       </>
     </MainLayout>
   )
