@@ -12,22 +12,31 @@ const navLinks: { label: string; href: string }[] = [
 
 export default function Navbar() {
   return (
-    <header className="border-b border-white/10 bg-[#0b0d12]">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
-        <Link to="/" aria-label="Go to homepage">
+    <header className="sticky top-0 z-50 border-b border-[#E2E8F0] bg-[#F8FAFC]/95 backdrop-blur-md">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-8">
+        {/* Logo */}
+        <Link
+          to="/"
+          aria-label="Go to homepage"
+          className="shrink-0"
+        >
           <img
             src="/img/icon-brand.png"
             alt="Portfolio logo"
-            className="h-12 w-auto object-contain"
+            className="h-10 w-auto object-contain sm:h-12"
           />
         </Link>
 
-        <nav aria-label="Main navigation" className="flex items-center gap-8">
+        {/* Navigation */}
+        <nav
+          aria-label="Main navigation"
+          className="flex items-center gap-4 overflow-x-auto sm:gap-6 lg:gap-8"
+        >
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-gray-400 transition-colors hover:text-purple-400"
+              className="shrink-0 text-sm font-medium text-slate-600 transition-colors hover:text-[#059669]"
             >
               {link.label}
             </a>
