@@ -15,7 +15,8 @@ export const projects: Project[] = [
       "React Hook Form",
       "Zod",
     ],
-    githubUrl: "https://github.com/Abdo1454",
+    githubUrl: "https://github.com/Abdulrahmanfawzy/vesta-react",
+    liveUrl :"https://vesta-nextjs.vercel.app/"
   },
   {
     id: 2,
@@ -25,14 +26,16 @@ export const projects: Project[] = [
     image: "/img/Ecommerce.png",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     githubUrl: "https://github.com/Abdo1454",
+    liveUrl:"https://sixteen-clothing-shop.netlify.app/"
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Time Flow",
     description:
       "A task management interface designed to help users organize tasks and improve productivity.",
-    image: "/img/tsaks.png",
+    image: "/img/timeFlow-img.png",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    githubUrl: "https://github.com/Abdo1454",
+    githubUrl: "https://github.com/Abdo1454/timeflow",
+    liveUrl: "https://timeflow-app-ten.vercel.app/",
   },
 ];
